@@ -37,5 +37,6 @@ To get started with this project, you need to fork the repository and clone it t
 **Step 1: Fork the Repository**<br>
 Go to the top right of this repository and click the "Fork" button. This will create a copy of the repository under your GitHub account.<br>
 **Step 2: Clone the Repository**<br> Once the repository is forked, clone it locally by running:<br>
-  ```git clone https://github.com/your-username/waste-classification-model.git
-  ```cd waste-classification-model
+  ```bash
+git clone https://github.com/your-username/waste-classification-model.git
+```cd waste-classification-model
