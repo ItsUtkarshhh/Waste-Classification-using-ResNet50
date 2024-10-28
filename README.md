@@ -11,8 +11,6 @@ A deep learning-based image classification model to classify different types of 
   - Downloading the Dataset
   - Running the Model
   - Evaluating the Model
-- Contributing
-- License
 
 ## Project Overview
 The Waste Classification Model helps in classifying waste into different categories such as paper, plastic, glass, etc., using a deep learning model. It is trained using the Trashnet dataset and implements evaluation metrics such as Accuracy, Precision, Recall, F1 Score and Confusion Matrix.
@@ -73,15 +71,28 @@ Alternatively, if there’s no requirements.txt, you can manually install the de
 pip install torch torchvision matplotlib scikit-learn
 ```
 
-### 2. Downloading the Dataset
+### 3. Downloading the Dataset
 You will need the Trashnet dataset for training and testing. You can download it from Kaggle:
 1. Download the Trashnet dataset from Kaggle: [TrashNet](https://www.kaggle.com/datasets/feyzazkefe/trashnet) Dataset<br>
 2. Extract the dataset and place it inside the `dataset` folder of this repository.<br>
 
-waste-classification-model/
-├── dataset/
-│   ├── paper/
-│   ├── glass/
-│   ├── plastic/
-│   └── ...
+### 4. Running the Model
+Once the environment is set up and the dataset is in place, you can start training or testing the model.<br>
+**Training the Model**
+If you want to train the model from scratch, run the following command:
+```bash
+python train.py
+```
+This will start the training process. You can monitor the validation loss and accuracy during the training.<br>
+**Loading a Pretrained Model**
+If you’ve already trained the model and want to test it, load the pretrained model by using:
+```bash
+model = torch.load('model.pth')
+```
 
+### 5. Evaluating Model
+To evaluate the model on the test set or validation set and get metrics like accuracy, precision, recall, and F1 score, run:
+```bash
+python evaluate.py
+```
+This script will output the evaluation metrics and generate visual plots (if implemented).
