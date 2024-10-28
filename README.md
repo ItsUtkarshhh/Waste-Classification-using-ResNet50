@@ -32,22 +32,16 @@ The Waste Classification Model helps in classifying waste into different categor
 - Jupyter Notebooks (for experimentation)
 
 ## Setup Guide
-**1. Fork and Clone**<br>
-  To get started with this project, you need to fork the repository and clone it to your local machine.<br>
-  **Step 1: Fork the Repository**<br>
-    Go to the top right of this repository and click the "Fork" button. This will create a copy of the repository under your GitHub account.<br>
-**Step 2: Clone the Repository**<br>
-    Once the repository is forked, clone it locally by running:<br>
-  ```bash
+
+### 1. Fork and Clone
+To get started with this project, you need to fork the repository and clone it to your local machine.
+
+#### Step 1: Fork the Repository
+Go to the top right of this repository and click the **Fork** button. This will create a copy of the repository under your GitHub account.
+
+#### Step 2: Clone the Repository
+Once the repository is forked, clone it locally by running the following commands:
+
+```bash
 git clone https://github.com/your-username/waste-classification-model.git
 cd waste-classification-model
-```
-<br>
-<br>
-**2. Setting Up the Environment**<br>
-You need to set up the environment with the required dependencies. It’s recommended to use a virtual environment (either venv or conda).<br>
-Using venv:
-Create a virtual environment
-```bash
-python -m venv venv
-
