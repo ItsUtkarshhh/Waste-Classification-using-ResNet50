@@ -104,18 +104,15 @@ python evaluate.py
 This script will output the evaluation metrics and generate visual plots (if implemented).
 
 
-### 6. Performance Matrix
+### 6. Performance Metrics
 The following metrics evaluate the performance of our Waste Classification Model (These metrics are according to the recent updated results):
-## Performance Metrics
-
-The following metrics evaluate the performance of the Waste Classification Model:
 
 | Metric        | Value   |
 |---------------|---------|
 | Accuracy      | 92.53%  |
-| Precision     | 0.91    |
-| Recall        | 0.89    |
-| F1 Score      | 0.90    |
+| Precision     | 0.9266  |
+| Recall        | 0.9253  |
+| F1 Score      | 0.9251  |
 
 ### Confusion Matrix
 ![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
