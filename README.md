@@ -2,7 +2,7 @@
 A deep learning-based image classification model to classify different types of waste, trained using the Trashnet dataset. This project is built using PyTorch and can be used to predict the category of waste items from images.
 
 ## Table of Contents <br>
-- Project Overview
+- [Project Overview](#Project-Overview)
 - Features
 - Tech Stack
 - Setup Guide
@@ -96,3 +96,5 @@ To evaluate the model on the test set or validation set and get metrics like acc
 python evaluate.py
 ```
 This script will output the evaluation metrics and generate visual plots (if implemented).
+
+
