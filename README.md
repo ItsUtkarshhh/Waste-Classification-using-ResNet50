@@ -45,3 +45,35 @@ Once the repository is forked, clone it locally by running the following command
 ```bash
 git clone https://github.com/your-username/waste-classification-model.git
 cd waste-classification-model
+```
+
+### 2. Setting up the Environment
+You need to set up the environment with the required dependencies. It’s recommended to use a virtual environment (either venv or conda).
+
+#### Using `venv`
+1. Create a virtual environment:
+```bash
+python -m venv venv
+```
+2. Activate the virtual environment:
+- On Windows:
+```bash
+venv\Scripts\activate
+```
+- On MacOS/Linux:
+```bash
+source venv/bin/activate
+```
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Alternatively, if there’s no requirements.txt, you can manually install the dependencies:
+```bash
+pip install torch torchvision matplotlib scikit-learn
+```
+
+### 2. Downloading the Dataset
+You will need the Trashnet dataset for training and testing. You can download it from Kaggle:
+1. Download the Trashnet dataset from Kaggle: TrashNet Dataset
+2. Extract the dataset and place it inside the dataset folder of this repository.
