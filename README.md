@@ -72,7 +72,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-Alternatively, if there’s no requirements.txt, you can manually install the dependencies:
+Alternatively, if there’s no `requirements.txt`, you can manually install the dependencies:
 ```bash
 pip install torch torchvision matplotlib scikit-learn
 ```
