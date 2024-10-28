@@ -75,5 +75,13 @@ pip install torch torchvision matplotlib scikit-learn
 
 ### 2. Downloading the Dataset
 You will need the Trashnet dataset for training and testing. You can download it from Kaggle:
-1. Download the Trashnet dataset from Kaggle: TrashNet Dataset
-2. Extract the dataset and place it inside the dataset folder of this repository.
+1. Download the Trashnet dataset from Kaggle: [TrashNet](https://www.kaggle.com/datasets/feyzazkefe/trashnet) Dataset<br>
+2. Extract the dataset and place it inside the `dataset` folder of this repository.<br>
+
+waste-classification-model/
+├── dataset/
+│   ├── paper/
+│   ├── glass/
+│   ├── plastic/
+│   └── ...
+
