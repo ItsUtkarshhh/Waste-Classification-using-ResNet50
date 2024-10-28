@@ -33,10 +33,11 @@ The Waste Classification Model helps in classifying waste into different categor
 
 ## Setup Guide
 **1. Fork and Clone**<br>
-To get started with this project, you need to fork the repository and clone it to your local machine.<br>
-**Step 1: Fork the Repository**<br>
-Go to the top right of this repository and click the "Fork" button. This will create a copy of the repository under your GitHub account.<br>
-**Step 2: Clone the Repository**<br> Once the repository is forked, clone it locally by running:<br>
+  To get started with this project, you need to fork the repository and clone it to your local machine.<br>
+  **Step 1: Fork the Repository**<br>
+    Go to the top right of this repository and click the "Fork" button. This will create a copy of the repository under your GitHub account.<br>
+**Step 2: Clone the Repository**<br>
+    Once the repository is forked, clone it locally by running:<br>
   ```bash
 git clone https://github.com/your-username/waste-classification-model.git
 cd waste-classification-model
