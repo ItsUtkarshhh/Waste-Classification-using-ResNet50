@@ -104,7 +104,7 @@ python evaluate.py
 This script will output the evaluation metrics and generate visual plots (if implemented).
 
 
-### 6. Performance Metrics
+## Performance Metrics
 The following metrics evaluate the performance of our Waste Classification Model (These metrics are according to the recent updated results):
 
 | Metric        | Value   |
