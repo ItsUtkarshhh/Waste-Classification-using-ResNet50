@@ -39,4 +39,4 @@ Go to the top right of this repository and click the "Fork" button. This will cr
 **Step 2: Clone the Repository**<br> Once the repository is forked, clone it locally by running:<br>
   ```bash
 git clone https://github.com/your-username/waste-classification-model.git
-```cd waste-classification-model
+cd waste-classification-model
