@@ -3,14 +3,20 @@ A deep learning-based image classification model to classify different types of 
 
 ## Table of Contents <br>
 - [Project Overview](#Project-Overview)
-- Features
-- Tech Stack
-- Setup Guide
-  - Fork and Clone
-  - Setting Up Environment
-  - Downloading the Dataset
-  - Running the Model
-  - Evaluating the Model
+- [Features](Features)
+- [Tech Stack](Tech-Stack)
+- [Setup Guide](Setup-Guide)
+  - [Fork and Clone](#Fork-and-Clone)
+  - [Setting Up Environment](#Setting-Up-Environment)
+  - [Downloading the Dataset](#Downloading-the-Dataset)
+  - [Running the Model](#Running-the-Model)
+  - [Evaluating the Model](#Evaluating-the-Model)
+- [Performance Metrics](#Performance-Metrics)
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
+  - Confusion Matrix
 
 ## Project Overview
 The Waste Classification Model helps in classifying waste into different categories such as paper, plastic, glass, etc., using a deep learning model. It is trained using the Trashnet dataset and implements evaluation metrics such as Accuracy, Precision, Recall, F1 Score and Confusion Matrix.
@@ -98,3 +104,18 @@ python evaluate.py
 This script will output the evaluation metrics and generate visual plots (if implemented).
 
 
+### 6. Performance Matrix
+The following metrics evaluate the performance of our Waste Classification Model (These metrics are according to the recent updated results):
+## Performance Metrics
+
+The following metrics evaluate the performance of the Waste Classification Model:
+
+| Metric        | Value   |
+|---------------|---------|
+| Accuracy      | 92.53%  |
+| Precision     | 0.91    |
+| Recall        | 0.89    |
+| F1 Score      | 0.90    |
+
+### Confusion Matrix
+![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
