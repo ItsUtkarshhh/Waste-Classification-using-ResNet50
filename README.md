@@ -41,3 +41,13 @@ The Waste Classification Model helps in classifying waste into different categor
   ```bash
 git clone https://github.com/your-username/waste-classification-model.git
 cd waste-classification-model
+```
+<br>
+<br>
+**2. Setting Up the Environment**<br>
+You need to set up the environment with the required dependencies. It’s recommended to use a virtual environment (either venv or conda).<br>
+Using venv:
+Create a virtual environment
+```bash
+python -m venv venv
+
