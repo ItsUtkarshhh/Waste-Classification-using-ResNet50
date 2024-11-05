@@ -109,10 +109,10 @@ The following metrics evaluate the performance of our Waste Classification Model
 
 | Metric        | Value   |
 |---------------|---------|
-| Accuracy      | 92.53%  |
-| Precision     | 92.66%  |
-| Recall        | 92.53%  |
-| F1 Score      | 92.51%  |
+| Accuracy      | 92.75%  |
+| Precision     | 92.81%  |
+| Recall        | 92.75%  |
+| F1 Score      | 92.75%  |
 
 ### Confusion Matrix
 ![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
