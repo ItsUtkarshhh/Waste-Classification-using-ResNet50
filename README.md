@@ -120,12 +120,12 @@ The following metrics evaluate the performance of our Waste Classification Model
 ## Contributors
 <p align="left">
   <a href="https://github.com/username1">
-    <img src="https://avatars.githubusercontent.com/username1" width="50px;" alt="username1"/>
+    <img src="https://avatars.githubusercontent.com/username1" width="50px;" alt="username1" display="block"/>
   </a>
   <a href="https://github.com/username2">
-    <img src="https://avatars.githubusercontent.com/username2" width="50px;" alt="username2"/>
+    <img src="https://avatars.githubusercontent.com/username2" width="50px;" alt="username2" display="block"/>
   </a>
   <a href="https://github.com/username3">
-    <img src="https://avatars.githubusercontent.com/username3" width="50px;" alt="username3"/>
+    <img src="https://avatars.githubusercontent.com/username3" width="50px;" alt="username3" display="block"/>
   </a>
 </p>
