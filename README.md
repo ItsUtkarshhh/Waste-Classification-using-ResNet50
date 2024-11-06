@@ -118,14 +118,23 @@ The following metrics evaluate the performance of our Waste Classification Model
 ![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
 
 ## Contributors
-<p align="left">
+<p align="center">
   <a href="https://github.com/username1">
-    <img src="https://avatars.githubusercontent.com/username1" width="50px;" alt="username1" display="block"/>
+    <img src="https://avatars.githubusercontent.com/username1" width="100px" style="border-radius: 50%;" alt="username1"/>
+    <br />
+    <sub><b>Username 1</b></sub>
   </a>
+  <br /><br />
   <a href="https://github.com/username2">
-    <img src="https://avatars.githubusercontent.com/username2" width="50px;" alt="username2" display="block"/>
+    <img src="https://avatars.githubusercontent.com/username2" width="100px" style="border-radius: 50%;" alt="username2"/>
+    <br />
+    <sub><b>Username 2</b></sub>
   </a>
+  <br /><br />
   <a href="https://github.com/username3">
-    <img src="https://avatars.githubusercontent.com/username3" width="50px;" alt="username3" display="block"/>
+    <img src="https://avatars.githubusercontent.com/username3" width="100px" style="border-radius: 50%;" alt="username3"/>
+    <br />
+    <sub><b>Username 3</b></sub>
   </a>
 </p>
+
