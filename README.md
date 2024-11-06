@@ -118,23 +118,19 @@ The following metrics evaluate the performance of our Waste Classification Model
 ![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
 
 ## Contributors
-<p align="left">
-  <a href="https://github.com/username1">
-    <img src="https://avatars.githubusercontent.com/username1" width="50px" style="border-radius: 50%;" alt="username1"/>
-    <br />
-    <sub><b>Username 1</b></sub>
+<p align="center">
+  <a href="https://github.com/username1" style="display: flex; align-items: center; text-align: left; margin-bottom: 20px;">
+    <img src="https://avatars.githubusercontent.com/username1" width="100px" style="border-radius: 50%;" alt="username1"/>
+    <span style="margin-left: 20px;"><b>Username 1</b></span>
   </a>
-  <br /><br />
-  <a href="https://github.com/username2">
-    <img src="https://avatars.githubusercontent.com/username2" width="50px" style="border-radius: 50%;" alt="username2"/>
-    <br />
-    <sub><b>Username 2</b></sub>
+  <br />
+  <a href="https://github.com/username2" style="display: flex; align-items: center; text-align: left; margin-bottom: 20px;">
+    <img src="https://avatars.githubusercontent.com/username2" width="100px" style="border-radius: 50%;" alt="username2"/>
+    <span style="margin-left: 20px;"><b>Username 2</b></span>
   </a>
-  <br /><br />
-  <a href="https://github.com/username3">
-    <img src="https://avatars.githubusercontent.com/username3" width="50px" style="border-radius: 50%;" alt="username3"/>
-    <br />
-    <sub><b>Username 3</b></sub>
+  <br />
+  <a href="https://github.com/username3" style="display: flex; align-items: center; text-align: left; margin-bottom: 20px;">
+    <img src="https://avatars.githubusercontent.com/username3" width="100px" style="border-radius: 50%;" alt="username3"/>
+    <span style="margin-left: 20px;"><b>Username 3</b></span>
   </a>
 </p>
-
