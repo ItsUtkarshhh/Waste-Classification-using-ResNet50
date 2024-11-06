@@ -118,4 +118,4 @@ The following metrics evaluate the performance of our Waste Classification Model
 ![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
 
 ## Contributors
-![Contributors](https://img.shields.io/github/contributors/your-repo-name/your-project-name?style=flat-square)
+![Contributors](https://img.shields.io/github/contributors/ItsUtkarshhh/Waste-Classification-Model-using-CNN?style=flat-square)
