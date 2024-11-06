@@ -118,19 +118,19 @@ The following metrics evaluate the performance of our Waste Classification Model
 ![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
 
 ## Contributors
-<p align="center">
+<p align="left">
   <a href="https://github.com/username1" style="display: flex; align-items: center; text-align: left; margin-bottom: 20px;">
     <img src="https://avatars.githubusercontent.com/username1" width="30px" style="border-radius: 50%;" alt="username1"/>
-    <span style="margin-left: 20px;"><b>Username 1</b></span>
+    <span style="margin-left: 20px;"><b style="margin-left: 10px">Username 1</b></span>
   </a>
   <br />
   <a href="https://github.com/username2" style="display: flex; align-items: center; text-align: left; margin-bottom: 20px;">
     <img src="https://avatars.githubusercontent.com/username2" width="30px" style="border-radius: 50%;" alt="username2"/>
-    <span style="margin-left: 20px;"><b>Username 2</b></span>
+    <span style="margin-left: 20px;"><b style="margin-left: 10px>Username 2</b></span>
   </a>
   <br />
   <a href="https://github.com/username3" style="display: flex; align-items: center; text-align: left; margin-bottom: 20px;">
     <img src="https://avatars.githubusercontent.com/username3" width="30px" style="border-radius: 50%;" alt="username3"/>
-    <span style="margin-left: 20px;"><b>Username 3</b></span>
+    <span style="margin-left: 20px;"><b style="margin-left: 10px>Username 3</b></span>
   </a>
 </p>
