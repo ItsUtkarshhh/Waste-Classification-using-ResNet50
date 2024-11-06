@@ -120,4 +120,4 @@ The following metrics evaluate the performance of our Waste Classification Model
 ## Contributors
 - [@username1](https://github.com/username1)
 - [@username2](https://github.com/username2)
-- [@username3](https://github.com/username3)
+- [@username3](https://github.com/Rohanaga)
