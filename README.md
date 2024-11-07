@@ -118,6 +118,6 @@ The following metrics evaluate the performance of our Waste Classification Model
 ![Confusion Matrix](https://github.com/user-attachments/assets/1f8150cd-9372-44ff-af25-3a63efefb2c9)
 
 ## Contributors
-- [@username1](https://github.com/username1)
+- [Paresh Bansal](https://github.com/Pareshmahi)
 - [@username2](https://github.com/username2)
 - [@username3](https://github.com/Rohanaga)
