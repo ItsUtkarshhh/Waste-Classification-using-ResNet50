@@ -119,5 +119,5 @@ The following metrics evaluate the performance of our Waste Classification Model
 
 ## Contributors
 - [Paresh Bansal](https://github.com/Pareshmahi)
-- [@username2](https://github.com/username2)
+- [Preyansh Sharma](https://github.com/Preyansh13)
 - [Rohan Agarwal](https://github.com/Rohanaga)
