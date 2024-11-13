@@ -1,13 +1,19 @@
-from flask import Flask, request, render_template, redirect, url_for
-from flask import send_from_directory
+from flask import Flask, request, render_template, redirect, url_for, send_from_directory
 import torch
 from torchvision import transforms
 from torchvision.models import resnet50
 from PIL import Image
-import numpy as np
 import os
 
 app = Flask(__name__)
+
+# Directory for uploaded files
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+# Ensure the upload folder exists
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
 
 # Class names (update this based on your dataset)
 class_names = sorted(['trash', 'plastic', 'paper', 'metal', 'glass', 'cardboard'])
@@ -32,7 +38,7 @@ def index():
 
 @app.route('/uploads/<filename>')
 def uploaded_file(filename):
-    return send_from_directory('uploads', filename)
+    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
 def predict(img_name):
     img = Image.open(img_name).convert('RGB')  # Load image
@@ -55,14 +61,14 @@ def upload_file():
         return redirect(request.url)
 
     # Save the uploaded image
-    filepath = os.path.join('uploads', file.filename)
+    filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
     file.save(filepath)
 
     # Process the image and make a prediction
     predicted_class = predict(img_name=filepath)
 
     # Update image_url to be accessible via the new route
-    image_url = f'/uploads/{file.filename}'
+    image_url = url_for('uploaded_file', filename=file.filename)
 
     return render_template('result.html', class_name=predicted_class.upper(), image_url=image_url)
 

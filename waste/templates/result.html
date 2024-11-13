@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+
 </head>
 <body>
-    <h1>Prediction Result</h1>
-    <h2>Predicted Class: {{ class_name }}</h2>
-    <img src="{{image_url}}" alt="Uploaded Image" style="max-width: 500px; max-height: 500px;">
-    <br>
-    <a href="/">Upload another image</a>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result-box">
+            <h2>Predicted Class: <span>{{ class_name }}</span></h2>
+            <img src="{{image_url}}" alt="Uploaded Image" class="result-image">
+        </div>
+        <a href="/" class="upload-link">Upload Another Image</a>
+    </div>
 </body>
 </html>
